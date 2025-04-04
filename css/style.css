@@ -16,7 +16,7 @@ a{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('images/lpi.jpg');
+    background-image: url('/images/lpi.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -279,37 +279,37 @@ nav h2{
 }
 
 #card1{
-    background-image: url('images/simplecal.png');
+    background-image: url('/images/simplecal.png');
     background-size: cover;
     background-position: center;
 }
 
 #card2{
-    background-image: url('images/todoapp.png');
+    background-image: url('/images/todoapp.png');
     background-size: cover;
     background-position: center;
 }
 
 #card3{
-    background-image: url('images/management.png');
+    background-image: url('/images/management.png');
     background-size: cover;
     background-position: center;
 }
 
 #card4{
-    background-image: url('images/blog.png');
+    background-image: url('/images/blog.png');
     background-size: cover;
     background-position: center;
 }
 
 #card5{
-    background-image: url('images/magzine.png');
+    background-image: url('/images/magzine.png');
     background-size: cover;
     background-position: center;
 }
 
 #card6{
-    background-image: url('images/modeling.png');
+    background-image: url('/images/modeling.png');
     background-size: cover;
     background-position: center;
 }
@@ -334,7 +334,7 @@ footer{
 
 #about-me{
     
-    background-image: url('images/lpi.jpg');
+    background-image: url('../images/lpi.jpg');
     width: 100%;
     height: 600px;
     background-size: cover;
