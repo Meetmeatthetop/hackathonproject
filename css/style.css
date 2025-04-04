@@ -103,7 +103,7 @@ nav h2{
 .hero-side-text{
     position: absolute;
     text-align: right;
-    bottom: -90%;
+    bottom: -50%;
     right: 95px;
     color: #FFFFFF;
     font-size: 2rem;
