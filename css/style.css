@@ -7,6 +7,11 @@ body{
     color: #FFFFFF;
 }
 
+a{
+    color: #BABABA;
+    text-decoration: none;
+}
+
 #heros-bar{
     position: relative;
     width: 100%;
@@ -16,10 +21,7 @@ body{
     background-position: center;
 }
 
-a{
-    color: #BABABA;
-    text-decoration: none;
-}
+
 
 button{
     margin-left: 100px;
@@ -56,7 +58,13 @@ nav h2{
     background-color: #B2FF40;
 }
 
-.reach-me-btn2{
+.reach-me-btn:hover{
+    font-weight: bold;
+    color:  #000000;
+    background-color: #FFFFFF;
+}
+
+.download-cv-btn{
     margin: 0px;
     margin-top: 40px;
     font-weight: bold;
@@ -64,6 +72,12 @@ nav h2{
     border: #B2FF40 solid 1px;
     color: #ffffff;
 
+}
+
+.download-cv-btn:hover{
+    background-color: #B2FF40;
+    color: #000000;
+    cursor: pointer;
 }
 
 .hero-content{
@@ -113,26 +127,39 @@ nav h2{
     align-items: center;
     text-align: center;
     padding: 50px 0px;
-    height: 500px;
+    height: auto;
     background-color: #000000;
 }
 
-.my-tools{
-    width: 50%;
+
+
+.my-tools p{
+    width: 65%;
+    margin: 0px auto;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #BABABA;
 }
+
+.about-me p{
+    color: #BABABA;
+    line-height: 25px;
+}
+
 
 .tool-list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px;
     
 }
 
 .tool{
-    margin: 40px;
+    margin: 30px;
 }
+
 
 #about-me-container{
     display: flex;
@@ -141,15 +168,10 @@ nav h2{
     align-items: center;
     text-align: center;
     padding: 50px 0px;
-    height: 500px;
+    height: 600px;
     background-color: #000000;
 }
 
-.about-me-image{
-    width: 400px;
-    height: 500px;
-    background-color: #B2FF40;
-}
 
 .about-me{
     width: 30%;
@@ -170,4 +192,194 @@ nav h2{
     background-color: #000000;
     border: #B2FF40 solid 1px;
     color: #ffffff;
+}
+.read-more-btn:hover{
+    background-color: #B2FF40;
+    color: #000000;
+    cursor: pointer;
+}
+
+#projects-container{
+    padding: 0px 10%;
+}
+
+.project-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: #000000;
+
+}
+
+.project-header h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+
+.project-header p{
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    color: #BABABA;
+}
+
+.view-all-btn{
+    margin: 0px;
+    font-weight: bold;
+    background-color: #000000;
+    border: #B2FF40 solid 1px;
+    color: #ffffff;
+}
+
+.view-all-btn:hover{
+    background-color: #B2FF40;
+    color: #000000;
+    cursor: pointer;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: #000000;
+}
+
+.project-card h2{
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.card{
+    width: 450px;
+    height: 600px;
+    background-color: #131313;
+    border: #2f2f2f solid 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    border: #505050 solid 1px;
+}
+
+.card p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#card1{
+    background-image: url('../images/simplecal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#card2{
+    background-image: url('../images/todoapp.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#card3{
+    background-image: url('../images/management.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#card4{
+    background-image: url('../images/blog.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#card5{
+    background-image: url('../images/magzine.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#card6{
+    background-image: url('../images/modeling.png');
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    text-align: left;
+    padding: 100px 10%;
+    background-color: #000000;
+}
+
+.footer-links ul{
+    text-decoration: none;
+    background-color: greenyellow;
+}
+
+/* end of index page*/
+
+
+#about-me{
+    
+    background-image: url('../images/lpi.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.about-content{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+
+.about-text{
+    padding-left: 50px;
+}
+
+.about-content h1{
+    width: 100%;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+
+.about-text h3{
+    font-weight: lighter;
+    line-height: 30px;
+    color: #B2FF40;
+}
+
+#about-me-details {
+    width: 60%;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+#about-me-details p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    
 }
