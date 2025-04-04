@@ -383,3 +383,107 @@ footer{
     text-align: justify;
     
 }
+
+
+/* Media Query for Tablets (768px and below) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 80%;
+        height: auto;
+    }
+
+    .about-text {
+        padding-left: 0;
+    }
+
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Media Query for Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    nav h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav-links ul {
+        gap: 5px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+    }
+
+    .about-content h1 {
+        font-size: 2rem;
+    }
+
+    .about-text h3 {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .tool-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer .footer-links ul {
+        background-color: transparent;
+    }
+}
